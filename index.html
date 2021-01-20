@@ -9,34 +9,124 @@
     <header>
         <h1>Simon Riedmann</h1>
         <nav>
-
+            <a href=#bio>Biografie</a>
+            <a href=#contact>Kontakt</a>
         </nav>
+        <img src="images/bild.jpeg" alt="bolivien bild" width=300>
+        <p>Hi und herzlich willkommen auf meiner Website! Ich bin Simon und 24 Jahre alt. Hier findest du Infos über mich. Solltest du noch Fragen haben, schick mir gerne eine Nachricht über das Kontaktformular oder schreibe mir auf den Socials</p>
+        <hr>
     </header>
     <main>
+
         <section>
-            <h2>Persönliche Daten</h2>
-                <ul></ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+            <h2>Infos</h2>
+                <h3>Skills</h3>
+                    <h4>Sprachen</h4>
+                        <ul>
+                            <li>Deutsch</li>
+                            <li>Englisch</li>
+                            <li>Spanisch</li>
+                            <li>Französisch</li>
+                        </ul>
+                    <h4>Computerkenntnisse</h4> 
+                        <ul>
+                            <li>Microsoft Office</li>
+                            <li>SAP</li>
+                            <li>Git/GitHub</li>
+                            <li>Shell</li>
+                            <li>HTML</li>
+                        </ul>
+                <hr>
+                <h3>Interessen</h3>
+                    <ul>
+                        <li>Backpacking/Fremde Kulturen</li>
+                        <li>Outdoor-Sportarten (Wandern, Fahrradfahren, Snowboarden)</li>
+                        <li>Fitness</li>
+                        <li>Jugendgruppenleiter/Kassierer bei Pfadfinder Gundelfingen</li>
+                    </ul>
+                <hr>     
         </section>
         <section>
-            <h2>Berufliche Laufbahn</h2>
+            <h2>Kontaktinformationen</h2>
+                <ul>
+                    <li>Nummer: +49 152 24637636</li>
+                    <li>Mail: simon.riedmann@web.de</li>
+                </ul>
+                <a href="https://www.linkedin.com">
+                    <img src="images/LinkedIn.png" alt="LinkedIn icon" width=200>
+                </a>
+                <a href="https://github.com/simonriedmann">
+                    <img src="images/GitHub-Mark.png" alt="github icon" width=200>
+                </a>
         </section>
-        <section>
-            <h2>Ausbildung</h2>
-        </section>
-        <section>
-            <h2>Fähigkeiten</h2>
+
+        <section id="bio">
+            <h2>Lebenslauf</h2>
+            <h3>Praktische Erfahrung</h3>
+            <table>
+                <tr>
+                    <th>Jahr</th>
+                    <th>Job</th>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>neuefische Bootcamp</td>
+                </tr>
+                <tr>
+                    <td>2019-2020</td>
+                    <td>Key-Account-Manager Spanien/Lateinamerika bei BWF Envirotec</td>
+                </tr>
+                <tr>
+                    <td>Okt. 2018 - Dez. 2018</td>
+                    <td>Backpacking-Reise Südamerika</td>
+                </tr>
+            </table>
+            <hr>
+            <h3>Ausbildung</h3>
+            <table>
+                <tr>
+                    <th>Jahr</th>
+                    <th>Ausbildung</th>
+                </tr>
+                <tr>
+                    <td>Sept. 2015 - Sept. 2018</td>
+                    <td>DHBW Heidenheim Bachelor of Arts BWL</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>Abitur</td>
+                </tr>
+            </table>
+            <hr>
         </section>
     </main>
     <footer>
-        <h2>Kontakt</h2>
-        <href a="">LinkedIn</href>
-        <href a="">GitHub</href>
-        <href a=""></href>
-        <input type="text">
-        <button>Abschicken</button>
+        <h2 id="contact">Kontakt</h2>
+        <form>
+            <label>Vorname:
+                <input type="text">
+            </label>
+            <label>Nachname:
+                <input type="text">
+            </label>
+            <p>Geschlecht</p>
+                <label>
+                    <input type="radio"> männlich
+                </label>
+                <label>
+                    <input type="radio"> weiblich
+                </label>
+                <label>
+                    <input type="radio"> divers
+                </label>
+                <br>
+                <label> Nachricht
+                    <textarea cols="30" rows="10"></textarea>
+                </label>
+                <br>
+                <button>Absenden</button>
+        </form>
+
     </footer>
 </body>
 </html>
