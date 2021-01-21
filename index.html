@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Simon Riedmann</title>
 </head>
 <body>
     <header>
         <h1>Simon Riedmann</h1>
+        <h2>Navigation</h2>
         <nav>
-            <a href=#bio>Biography</a>
-            <a href=#contact>Contact</a>
+            <ul>
+                <li>
+                    <a href=#bio>Biography</a>
+                </li>
+                <li>
+                    <a href=#contact>Contact</a>
+                </li>
+            </ul>
         </nav>
-        <img src="images/profile.JPG" alt="bolivien bild" width=300>
+        <img src="images/profile.JPG" alt="bolivien bild" width=300 class="profile">
         <p>Hi and welcome to my personal website! I hope you like it and find some information about myself. If you would like to know something else, just write me a message.</p>
         <hr>
     </header>
@@ -57,14 +65,14 @@
             <h2>General information</h2>
                 <h3>Skills</h3>
                     <h4>Languages</h4>
-                        <ul>
+                        <ul class="romanlist">
                             <li>German</li>
                             <li>English</li>
                             <li>Spanish</li>
                             <li>French</li>
                         </ul>
                     <h4>Computer skills</h4> 
-                        <ul>
+                        <ul class="squarelist">
                             <li>Microsoft Office</li>
                             <li>SAP</li>
                             <li>Git/GitHub</li>
@@ -73,7 +81,7 @@
                         </ul>
                 <hr>
                 <h3>Interests</h3>
-                    <ul>
+                    <ul class="squarelist">
                         <li>Backpacking/foreign countries</li>
                         <li>Outdoor stuff (Trekking, biking, snowboarding)</li>
                         <li>Fitness</li>
