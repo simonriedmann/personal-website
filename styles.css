@@ -9,9 +9,11 @@ body {
 }
 
 h1 {
+    display: flex;
     color: dodgerblue;
     text-decoration: underline
     font-size: 4rem;
+    justify-content: center;
 
 }
 
