@@ -4,64 +4,16 @@
 
 body {
     font-size: 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: silver;
-}
-
-h1 {
-    display: flex;
-    color: dodgerblue;
-    text-decoration: underline
-    font-size: 4rem;
-    justify-content: center;
+    font-family: 'Raleway', sans-serif;
 
 }
 
-nav {
-    margin: 40px;
-}
-
-ul {
-    list-style-type: none;
-
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 5;
 }
 
 .profile {
-    padding: 0px 20px;
-    border-style: dashed;
-}
-
-h2 {
-    color: dodgerblue;
-}
-
-th {
-    padding: 1rem;
-}
-
-td {
-    padding: 1rem;
-}
-
-table {
-    border: dotted; 
-    border-color: ghostwhite;
-}
-
-p {
-    line-height: 1.5;
-}
-
-.romanlist {
-    list-style: lower-roman;
-    padding-left: 100px;
-}
-
-.squarelist {
-    list-style-type: square;
-}
-
-hr {
-    color:honeydew;
-    border: dashed;
+    border-radius: 20px 0px 20px 0px;
 }

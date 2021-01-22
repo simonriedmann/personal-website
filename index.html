@@ -4,29 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
     <title>Simon Riedmann</title>
+
 </head>
 <body>
     <header>
         <h1>Simon Riedmann</h1>
-        <h2>Navigation</h2>
+        <h2>Junior Web Developer</h2>
+        <img src="images/profile.JPG" alt="profilbild" width=300 class="profile">
         <nav>
             <ul>
                 <li>
-                    <a href=#bio>Biography</a>
+                    <a href=#about>About</a>
                 </li>
                 <li>
-                    <a href=#contact>Contact</a>
+                    <a>Biography</a>
+                </li>
+                <li>
+                    <a>Additional</a>
+                </li>
+                <li>
+                    <a>Contact</a>
                 </li>
             </ul>
         </nav>
-        <img src="images/profile.JPG" alt="profilbild" width=300 class="profile">
-        <p>Hi and welcome to my personal website! I hope you like it and find some information about myself. If you would like to know something else, just write me a message.</p>
-        <hr>
+        <br>
     </header>
+
     <main>
-        <section id="bio">
-            <h2>CV</h2>
+        <section>
+            <h2  class="about">Hi!</h2>
+            <p>I am Simon and currently becoming a web developer. This website is one of my first projects and I hope you like it. If you like to know something about me, it would be great to get in touch!</p>
+            <p>Simon</p>
+            <br>
+        </section>       
+        
+        <section>
+            <h2>Biography</h2>
             <h3>Job experience</h3>
             <table>
                 <tr>
@@ -34,12 +50,12 @@
                     <th>Job</th>
                 </tr>
                 <tr>
-                    <td>2021</td>
-                    <td>neuefische Bootcamp</td>
+                    <td>01/21-04/21</td>
+                    <td>Coding Bootcamp @ neuefische</td>
                 </tr>
                 <tr>
-                    <td>2019-2020</td>
-                    <td>Key-Account-Manager Spain/Latin America at BWF Envirotec</td>
+                    <td>01/19-12/20</td>
+                    <td>Key-Account-Manager Spain/Latin America @ BWF Envirotec</td>
                 </tr>
 
             </table>
@@ -48,31 +64,34 @@
             <table>
                 <tr>
                     <th>Year</th>
-                    <th>Education</th>
+                    <th>Location</th>
+                    <th>Studies</th>
                 </tr>
                 <tr>
-                    <td>Sept. 2015 - Sept. 2018</td>
-                    <td>DHBW Heidenheim Bachelor of Arts Business Administration</td>
+                    <td>09/15 - 09/19</td>
+                    <td>DHBW Heidenheim</td>
+                    <td>Bachelor Business Administration</td>
                 </tr>
                 <tr>
-                    <td>2015</td>
+                    <td>07/15</td>
+                    <td>Gymnasium Dillingen</td>
                     <td>Graduation</td>
                 </tr>
             </table>
             <hr>
         </section>
         <section>
-            <h2>General information</h2>
+            <h2>Information</h2>
                 <h3>Skills</h3>
                     <h4>Languages</h4>
-                        <ul class="romanlist">
+                        <ul>
                             <li>German</li>
                             <li>English</li>
                             <li>Spanish</li>
                             <li>French</li>
                         </ul>
                     <h4>Computer skills</h4> 
-                        <ul class="squarelist">
+                        <ul>
                             <li>Microsoft Office</li>
                             <li>SAP</li>
                             <li>Git/GitHub</li>
@@ -81,9 +100,9 @@
                         </ul>
                 <hr>
                 <h3>Interests</h3>
-                    <ul class="squarelist">
-                        <li>Backpacking/foreign countries</li>
-                        <li>Outdoor stuff (Trekking, biking, snowboarding)</li>
+                    <ul>
+                        <li>Backpacking</li>
+                        <li>Outdoor activities</li>
                         <li>Fitness</li>
                     </ul>
                 <hr>     
@@ -105,35 +124,9 @@
                 </a>
                 <hr>
         </section>
-
  
     </main>
     <footer>
-        <h2 id="contact">Contact sheet</h2>
-        <form>
-            <label>First name:
-                <input type="text">
-            </label>
-            <label>Last name:
-                <input type="text">
-            </label>
-            <p>Gender</p>
-                <label>
-                    <input type="radio"> male
-                </label>
-                <label>
-                    <input type="radio"> female
-                </label>
-                <label>
-                    <input type="radio"> other
-                </label>
-                <br>
-                <label> Message
-                    <textarea cols="30" rows="10"></textarea>
-                </label>
-                <br>
-                <button>Submit</button>
-        </form>
 
     </footer>
 </body>
