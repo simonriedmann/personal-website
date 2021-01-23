@@ -10,23 +10,22 @@
 
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Simon Riedmann</h1>
-        <h2>Junior Web Developer</h2>
         <img src="images/profile.JPG" alt="profilbild" width=300 class="profile">
-        <nav>
+        <nav class="navcontainer">
             <ul>
                 <li>
-                    <a href=#about>About</a>
+                    <a href=#about class="navlinks">About</a>
                 </li>
                 <li>
-                    <a>Biography</a>
+                    <a href=#biography class="navlinks">Biography</a>
                 </li>
                 <li>
-                    <a>Additional</a>
+                    <a href=#information class="navlinks">Information</a>
                 </li>
                 <li>
-                    <a>Contact</a>
+                    <a href=#contact class="navlinks">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -35,14 +34,18 @@
 
     <main>
         <section>
-            <h2  class="about">Hi!</h2>
-            <p>I am Simon and currently becoming a web developer. This website is one of my first projects and I hope you like it. If you like to know something about me, it would be great to get in touch!</p>
-            <p>Simon</p>
+            <h2  id="about" class="header2">Hi!</h2>
+            <p class="myself">I am Simon and currently becoming a web developer. You will find some information about myself on this website. It is one of my first projects, so I hope you like it.</p>
+            <div class="signature">
+                    <img src="images/signature.PNG" alt="signature"> 
+            </div>
+                
             <br>
         </section>       
         
-        <section>
-            <h2>Biography</h2>
+        <section class="biography">
+            <h2 id="biography" class="headingbio">Biography</h2>
+            <hr>
             <h3>Job experience</h3>
             <table>
                 <tr>
@@ -79,9 +82,11 @@
                 </tr>
             </table>
             <hr>
+            <br>
         </section>
-        <section>
-            <h2>Information</h2>
+        <section class="information">
+            <h2 id="information">Information</h2>
+            <hr>
                 <h3>Skills</h3>
                     <h4>Languages</h4>
                         <ul>
@@ -104,30 +109,44 @@
                         <li>Backpacking</li>
                         <li>Outdoor activities</li>
                         <li>Fitness</li>
-                    </ul>
-                <hr>     
+                    </ul>     
         </section>
-        <section>
-            <h2>Contact</h2>
-                <ul>
-                    <li>Number: +49 152 24637636</li>
-                    <li>Mail: simon.riedmann@web.de</li>
-                </ul>
-                <a href="https://www.linkedin.com/in/simon-riedmann/" target="_blank">
-                    <img src="images/LinkedIn.png" alt="LinkedIn icon" width=100>
-                </a>
-                <a href="https://github.com/simonriedmann" target="_blank">
-                    <img src="images/GitHub-Mark.png" alt="github icon" width=80>
-                </a>
-                <a href="https://codepen.io/simonrie" target="_blank">
-                    <img src="images/codepen.png" alt="github icon" width=75>
-                </a>
-                <hr>
-        </section>
- 
     </main>
-    <footer>
 
+    <footer class="footer">
+        <h2 id="contact">Contact</h2>
+        <section>
+            <p class="aboutp">Körnerstraße 9</p>
+            <p class="aboutp">86157 Augsburg</p>
+            <p class="aboutp">Germany</p>
+        </section>
+
+
+        <section>
+                <p></p>
+                <p class="aboutp">+49 152 24637636</p>
+                <p class="aboutp">simon.riedmann@web.de</p>
+        </section>
+
+        
+        <section>
+            <p>Follow me:</p>
+            <a href="https://www.linkedin.com/in/simon-riedmann/" target="_blank">
+                <img src="images/linkedinneu.png" alt="LinkedIn icon" width=60>
+            </a>
+            
+            <a href="https://github.com/simonriedmann" target="_blank">
+                <img src="images/githubneu2.png" alt="github icon" width=60>
+            </a>
+            
+            <a href="https://codepen.io/simonrie" target="_blank">
+                <img src="images/codepen.png" alt="github icon" width=60>
+        </section>
+
+        <section>              
+            <p>&copy; Copyright 2021 - Simon Riedmann<p>
+            <hr>
+        </section>
     </footer>
 </body>
 </html>
