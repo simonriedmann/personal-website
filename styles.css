@@ -49,6 +49,12 @@ ul {
 
 }
 
+
+
+
+
+
+
 .table {
     font-size: 5px;
 }
@@ -113,3 +119,11 @@ h2.ueberschrift {
     font-size: 0,5rem;
 }
 
+
+
+.tablestructure {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
